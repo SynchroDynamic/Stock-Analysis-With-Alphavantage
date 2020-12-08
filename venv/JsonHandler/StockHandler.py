@@ -3,7 +3,7 @@ import json
 import requests
 
 
-key = 'QSFJ8FGS5GTRAZ2U'
+key = 'your key here'
 #Alphavantage specific variables
 interval = {1:'1min', 5:'5min', 15:'15min', 30:'30min', 60:'60min', 'daily':'Daily', 'month': 'Monthly Time Series'} #min allowed: 1, 5, 15, 30, 60 > Daily: 'Daily'
 function = {'intra' :'TIME_SERIES_INTRADAY', 'daily': 'TIME_SERIES_DAILY', 'month': 'TIME_SERIES_MONTHLY'}
